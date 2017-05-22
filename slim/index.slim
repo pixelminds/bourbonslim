@@ -1,0 +1,37 @@
+/ Bourbonthin v1.0.2 - 
+    by pixelminds 2017 - 
+    GNU General Public License v3 - 
+    https://github.com/pixelminds/bourbonthin
+    
+== Slim::Template.new('partials/_head.slim').render
+section
+  article.type-system-rounded
+    p.type
+    h1 Welcome to MyCompany
+    /!
+      | h2// code
+    p.date Apr 30 2014
+    p
+      | Aliquip consequat magna dolor sunt veniam aliquip quis nisi sit ut labore qui. Incididunt exercitation duis qui pariatur exercitation quis quis mollit sint. Nostrud eu mollit fugiat minim commodo et consequat minim. Nostrud amet cillum tempor qui mollit est esse officia esse. Minim reprehenderit quis mollit cillum commodo dolore pariatur proident enim exercitation irure.
+      br>/
+      | Ipsum cupidatat commodo labore cupidatat non in cillum anim quis aliqua deserunt sunt labore. Incididunt aute incididunt irure eiusmod tempor tempor amet sit id dolor Lorem cupidatat do. Velit sunt laboris aute sunt consectetur ut deserunt tempor. Laborum ipsum enim enim sit minim excepteur enim dolore. Fugiat aliquip magna mollit qui velit et consectetur irure et.
+    h2 Our Background
+    p
+      | Mollit anim excepteur laboris laboris irure in ipsum tempor minim. Ut anim proident ipsum aute minim proident. Sunt ex proident labore nisi et ut labore ipsum enim ullamco anim qui non. Dolor veniam consequat ullamco ullamco eiusmod voluptate reprehenderit dolore commodo id cupidatat dolore anim. Dolore incididunt ea non nostrud consequat magna ipsum exercitation eu est commodo consectetur culpa tempor. Minim quis cupidatat duis ipsum laborum dolore et officia elit. Anim ad pariatur aute enim aute anim labore irure eu.
+      br>/
+      | Do culpa et ad officia sint nostrud nisi minim labore sit excepteur ad qui commodo. Excepteur reprehenderit incididunt magna aliquip. Amet id est quis est irure exercitation aute sunt velit labore in. Non laboris duis ex adipisicing sunt consectetur cupidatat qui officia. Ad enim dolor ipsum tempor dolor ea minim ad veniam velit aliquip.
+    /! hr
+    /! p.author Suministros Multifiltra S.L.
+.parallax-window2
+section
+  article.type-system-rounded
+    p.type
+    h2 Our Team
+    p Laborum fugiat amet ullamco duis exercitation exercitation cillum ea consectetur adipisicing. Cillum sint ex proident in velit deserunt sit ad. Aliqua sint sunt deserunt in. Consectetur et minim ex laborum eu aute magna et duis do nulla elit.
+script src="https://code.jquery.com/jquery-3.2.1.min.js" 
+script src="js/parallax.js" 
+javascript:
+  | $('.parallax-window2').parallax({imageSrc: 'http://lorempixel.com/900/300/business'});
+  | $('.parallax-window3').parallax({imageSrc: 'http://lorempixel.com/900/300/technics'});
+  | $('.parallax-window4').parallax({imageSrc: 'http://lorempixel.com/900/300/people'});
+== Slim::Template.new('partials/_footer.slim').render

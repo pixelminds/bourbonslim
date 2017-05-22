@@ -1,0 +1,18 @@
+// Bourbonthin v1.0.2 - 
+// by pixelminds, 2017 -
+// GNU General Public License v3 -
+// https://github.com/pixelminds/bourbonthin
+
+@import "../lib/bourbon";
+@import "../lib/neat";
+@import "../lib/base/base";
+
+// These do not generate CSS
+@import "1-settings"; // global variables
+@import "2-tools"; // mixins and functions
+// These do generate CSS
+@import "3-generic"; // resets
+@import "4-elements"; // unclassed elements
+@import "5-objects"; // class-based selectors
+@import "6-components"; // UI pieces 
+@import "7-trumps"; // exceptions and overrides

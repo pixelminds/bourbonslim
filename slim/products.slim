@@ -1,0 +1,51 @@
+/ Bourbonthin v1.0.2 - 
+    by pixelminds 2017 - 
+    GNU General Public License v3 - 
+    https://github.com/pixelminds/bourbonthin
+    
+== Slim::Template.new('partials/_head.slim').render
+section
+  article.type-system-rounded
+    p.type
+    h1 Products
+    p.date Apr 30 2014
+    p Enim amet ex anim aute ut nostrud labore pariatur est minim et laboris ut nulla. Sunt est sit culpa veniam voluptate nostrud laboris culpa ea dolor veniam Lorem minim. Sint id voluptate id reprehenderit occaecat laboris commodo ullamco adipisicing officia. Magna id dolore est et ea.
+    p Dolor elit velit veniam ex occaecat ut exercitation nostrud sunt cupidatat veniam cupidatat. Dolor laboris culpa nostrud nulla anim ullamco sunt deserunt deserunt magna aliquip duis. Quis esse adipisicing consectetur irure fugiat eu. Esse labore in eiusmod id culpa est cupidatat et exercitation cupidatat mollit excepteur occaecat.
+    hr/
+    p.author MyCompany Team
+a name="series_a" 
+.parallax-window2
+section
+  article.type-system-rounded
+    p.type
+    h2 Series A
+    p
+      | Consectetur do veniam officia velit deserunt ullamco qui nisi. Dolore dolor id cupidatat sint eu. Nostrud ea sit nulla enim consectetur laboris ut ipsum amet dolore excepteur qui fugiat. Velit aute ex irure consectetur tempor labore sint sint veniam incididunt. In Lorem occaecat consectetur aliquip irure mollit dolor aliquip adipisicing enim. Fugiat Lorem eu veniam culpa in aliqua mollit deserunt.
+      br/
+a name="series_b" 
+.parallax-window3
+section
+  article.type-system-rounded
+    p.type
+    h2 Series B
+    img.right src="http://lorempixel.com/100/100/food" /
+    p Dolore irure ad magna cillum magna sit qui veniam ea qui. Ea ad est pariatur elit cillum reprehenderit eu cupidatat proident pariatur in occaecat esse. Et ea consequat dolor id voluptate pariatur. Amet esse fugiat occaecat nulla exercitation amet deserunt magna. Consectetur aute eiusmod magna deserunt tempor cillum sit nulla excepteur nisi do qui ex veniam.
+    ul.default
+      li Model B.1
+      li Model B.2
+a name="series_c" 
+.parallax-window4
+section
+  article.type-system-rounded
+    p.type
+    h2 Series C
+    img.right src="http://lorempixel.com/100/100/animals" /
+    p Excepteur qui ea non laboris et. Sint enim ex culpa nulla ad non laborum aute ut ad incididunt irure id amet. Sint dolor reprehenderit irure et ad nulla adipisicing excepteur. Laboris nulla irure veniam veniam deserunt occaecat eu sint pariatur commodo qui.
+    p Aute esse est aute velit nulla nisi laborum aute incididunt ad aliqua tempor sit. Do irure ullamco pariatur aliqua proident consectetur tempor ad tempor duis pariatur nostrud dolore fugiat. Esse consectetur laboris occaecat amet.
+script src="https://code.jquery.com/jquery-3.2.1.min.js" 
+script src="js/parallax.js" 
+javascript:
+  | $('.parallax-window2').parallax({imageSrc: 'http://lorempixel.com/900/300/technics'});
+  | $('.parallax-window3').parallax({imageSrc: 'http://lorempixel.com/900/300/abstract'});
+  | $('.parallax-window4').parallax({imageSrc: 'http://lorempixel.com/900/300/business'});
+== Slim::Template.new('partials/_footer.slim').render

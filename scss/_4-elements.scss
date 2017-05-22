@@ -1,0 +1,16 @@
+// Bourbonthin v1.0.2 - 
+// by pixelminds, 2017 -
+// GNU General Public License v3 -
+// https://github.com/pixelminds/bourbonthin
+
+// 4. elements (ITCSS)
+// unclassed elements (SMACSS base & layout)
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+section {
+    width: $gwidth;
+    margin: auto;
+}
+

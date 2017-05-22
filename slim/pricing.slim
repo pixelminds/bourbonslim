@@ -1,0 +1,42 @@
+/ Bourbonthin v1.0.2 - 
+    by pixelminds 2017 - 
+    GNU General Public License v3 - 
+    https://github.com/pixelminds/bourbonthin
+    
+== Slim::Template.new('partials/_head.slim').render
+section
+  article.type-system-rounded
+    p.type
+    h1 Our pricing
+    p.date Apr 30 2014
+    br/
+    .cards
+      .card
+        .card-image
+          img alt="" src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png" /
+        .card-header Series A
+        .card-copy
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.
+      .card
+        .card-image
+          img alt="" src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-4.png" /
+        .card-header Series B
+        .card-copy
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.
+      .card
+        .card-image
+          img alt="" src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-3.png" /
+        .card-header Series C
+        .card-copy
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    br/
+    p
+      a href="mailto:info@pixelminds.net" > Contact us
+      | for a quote!
+script src="https://code.jquery.com/jquery-3.2.1.min.js" 
+script src="js/parallax.js" 
+javascript:
+  | $('.parallax-window2').parallax({imageSrc: 'img/wine.jpg'});
+  | $('.parallax-window3').parallax({imageSrc: 'img/blanco.jpg'});
+  | $('.parallax-window4').parallax({imageSrc: 'img/oli.jpg'});
+== Slim::Template.new('partials/_footer.slim').render
