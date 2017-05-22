@@ -1,7 +1,7 @@
 [<img src="https://github.com/pixelminds/bourbonslim/blob/master/bourbonslim_logo.png" alt="Bourbonslim logo">](https://github.com/pixelminds/bourbonslim)
 
 # bourbonslim
-[![Release v1.0](https://img.shields.io/badge/release-v0.9-orange.svg)](https://github.com/pixelminds/bourbonslim) [![Bourbon v5.0.0 b7](https://img.shields.io/badge/bourbon-v5.0.0%20b7-red.svg)](http://bourbon.io/) [![Neat v1.8.0](https://img.shields.io/badge/neat-v1.8.0-blue.svg)](https://github.com/thoughtbot/neat/tree/neat-1.8.0-node-sass) [![jQuery v3.2.1](https://img.shields.io/badge/jquery-v3.2.1-green.svg)](https://jquery.com/) [![GPLv3 license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.txt) 
+[![Release v1.0](https://img.shields.io/badge/release-v1.0.2-orange.svg)](https://github.com/pixelminds/bourbonslim) [![Bourbon v5.0.0 b7](https://img.shields.io/badge/bourbon-v5.0.0%20b7-red.svg)](http://bourbon.io/) [![Neat v1.8.0](https://img.shields.io/badge/neat-v1.8.0-blue.svg)](https://github.com/thoughtbot/neat/tree/neat-1.8.0-node-sass) [![jQuery v3.2.1](https://img.shields.io/badge/jquery-v3.2.1-green.svg)](https://jquery.com/) [![GPLv3 license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.txt) 
 
 **Bourbonslim** is an opinionated template or boilerplate you can use as a starter for small static multipage websites. We included popular effects such as parallax images or sticky navigation, which you can of course use or not. As a core framework we used Bourbon, Neat, Bitters and Refills, which rely on JQuery for some dynamic behaviors.  
 ### Preprocessor and templating engine
