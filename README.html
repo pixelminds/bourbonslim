@@ -1,0 +1,39 @@
+<p><a href="https://github.com/pixelminds/bourbonslim"><img src="https://github.com/pixelminds/bourbonslim/blob/master/bourbonslim_logo.png" alt="Bourbonslim logo"></a></p>
+<h1 id="bourbonslim">bourbonslim</h1>
+<p><a href="https://github.com/pixelminds/bourbonslim"><img src="https://img.shields.io/badge/release-v0.9-orange.svg" alt="Release v1.0"></a> <a href="http://bourbon.io/"><img src="https://img.shields.io/badge/bourbon-v5.0.0%20b7-red.svg" alt="Bourbon v5.0.0 b7"></a> <a href="https://github.com/thoughtbot/neat/tree/neat-1.8.0-node-sass"><img src="https://img.shields.io/badge/neat-v1.8.0-blue.svg" alt="Neat v1.8.0"></a> <a href="https://jquery.com/"><img src="https://img.shields.io/badge/jquery-v3.2.1-green.svg" alt="jQuery v3.2.1"></a> <a href="https://www.gnu.org/licenses/gpl-3.0.txt"><img src="https://img.shields.io/badge/license-GPLv3-blue.svg" alt="GPLv3 license"></a> </p>
+<p><strong>Bourbonslim</strong> is an opinionated template or boilerplate you can use as a starter for small static multipage websites. We included popular effects such as parallax images or sticky navigation, which you can of course use or not. As a core framework we used Bourbon, Neat, Bitters and Refills, which rely on JQuery for some dynamic behaviors.  </p>
+<h3 id="preprocessor-and-templating-engine">Preprocessor and templating engine</h3>
+<p>Editing in HTML and CSS would be specially tough without a template engine and a CSS preprocessor. In this project we rely on Slim and SASS. The origin of this project is a twin project based in Jade/Pug. We decided to build a new version based in Slim, so now you know where we made the project name up from. By using mixins, nesting &amp; variables in CSS and dry syntax with partials for the HTML structure, productivity is greatly enhanced. Despite this belief, we&#39;ve had a bad experience with workflow or dependency managers based on node.js (gulp, grunt, bower), and we can&#39;t use solutions based in Ruby, because Windows is not Ruby-friendly. Although both Bourbon and Slim need Ruby, we found our best candidate for processing, Prepros, can take care of that, so we included the Prepros config file.</p>
+<p>Slim is very helpful in drying the HTML syntax, but its real power arises when you use it as a templating language. In this project we&#39;ve only used the partials feature, allowing us to write repetitive parts only once (header, footer). Slim is slightly dryer with code than Jade. The include feature, however, is not as nice, so we first decided to use Jade. Now you can choose to stay with Jade, although we plan to keep Bourbonslim ahead in upgrades.</p>
+<h3 id="css-maintainability">CSS Maintainability</h3>
+<p><code>New in version 1.0.2</code> CSS maintainability is managed by layering all the SCSS in logical groups. After a first attempt to bring up a custom architecture to fit our needs (1.0.1), we decided to follow the ITCSS standard. SMACSS is more topological, meaning that it separates selectors and elements depending on their global or local location within the layout. This looked conceptually more intuitive at first, but we ended up having unclassed elements and classes mixed with mixins. ITCSS uses a more code-level logic, and separates classes in a top-down scheme, with increasing specificity and decreasing reach. While this may feel less intuitive and less design-related, it&#39;s also less confusing. However, its main advantage is it uses the same sequence and logic of the CSS cascading hierarchy.</p>
+<p>In terms of naming conventions, and selector-level maintainability, since we&#39;re basically reusing existing components and resources, we decided not to tackle this issue, and leave all classes untouched. This is also important in the evetual case of upgrading part of the third party code. Moreover, we prefer keeping HTML as dry as possible, as semantic as possible (no classitis, no divitis), despite the widespread opinion that the best practice in CSS is to watch over specificity issues and to avoid tag selectors.</p>
+<h3 id="installation-usage">Installation &amp; Usage</h3>
+<h4 id="plain-html-css">Plain HTML/CSS</h4>
+<p>Use this method if you&#39;re okay with the template design as it is, or need minor local changes, and basically just need to customize contents. Simply download <strong>Bourbonslim</strong>, and ignore slim / scss folders. Go ahead and edit HTML contents and CSS styles with your preferred editor.</p>
+<h4 id="with-preprocessing">With preprocessing</h4>
+<p>If you need deeper changes, and want better control of the overall design, you should follow this method using Prepros, or port it to the workflow of your choice. Download <strong>Bourbonslim</strong> and drop the folder onto Prepros. Any changes made to Slim or SCSS documents will be processed into HTML/CSS.</p>
+<h3 id="tools-and-resources-used">Tools and resources used</h3>
+<ul>
+<li><a href="https://prepros.io/"><strong>Prepros</strong></a> by <a href="https://github.com/Subash">Subash Pathak</a> for SASS / Jade preprocessing.</li>
+<li><a href="http://www.initializr.com/"><strong>Initializr</strong></a> by <a href="http://verekia.com/">Jonathan Verrecchia</a> for the boilerplate essentials. Including <a href="https://html5boilerplate.com/">HTML5 Boilerplate</a> v5.0 by the <a href="https://github.com/h5bp">H5BP Team</a>.</li>
+<li><a href="http://bourbon.io"><strong>Bourbon</strong></a> - Thanks to the design team at <a href="http://thoughtbot.com/">Thoughtbot</a> for the Bourbon ecosystem.<ul>
+<li><a href="https://github.com/thoughtbot/bourbon">Bourbon</a> v5.0.0 b7 - SASS mixins for fast prototyping.</li>
+<li><a href="https://github.com/thoughtbot/neat">Neat</a> v1.8.0 - Semantic grid for use with Bourbon. Must use v. 1.8.0 (refills will not work with Neat v2).</li>
+<li><a href="https://github.com/thoughtbot/bitters">Bitters</a> v1.5.0 - base SASS variable set.</li>
+<li><a href="http://refills.bourbon.io/">Refills</a> - Patterns and components (requires Bourbon + Neat). Used: cards, navigation, type system, footer.</li>
+</ul>
+</li>
+<li><a href="https://code.jquery.com/jquery-3.2.1.min.js"><strong>JQuery</strong></a> v3.2.1 by John Resig and the <a href="https://jquery.org/team/">JQuery Foundation</a> - JQuery plugins:<ul>
+<li><a href="http://pixelcog.github.io/parallax.js/">Parallax.js</a> v1.4.2 by <a href="http://pixelcog.com/about/">PixelCog Inc.</a> for the parallax effect.</li>
+<li><a href="http://stickyjs.com/">Sticky.js</a> v1.0.4 by <a href="http://anthonygarand.com/">Anthony Garand</a> for the sticky navigation bar.</li>
+</ul>
+</li>
+<li>Web resources:<ul>
+<li><a href="https://html2slim.herokuapp.com/"><strong>HTML 2 Slim</strong></a> for the HTML &gt; Slim translation.</li>
+<li><a href="http://lorempixel.com/"><strong>Lorempixel</strong></a> for the placeholder images.</li>
+<li><a href="http://www.latlong.net/"><strong>LatLong</strong></a> for the map coordinate calculation.</li>
+<li><a href="https://www.w3schools.com/icons/default.asp"><strong>W3 Schools</strong></a> for the social icon procedure.</li>
+</ul>
+</li>
+</ul>
