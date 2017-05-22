@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file. This projec
 ### Changed
 
 - Reorganized styles in 7 layers, using a strict ITCSS structure, since the former structure was so close to standard.
-- Translated Jade to Slim, and starter new Bourbonslim project.
+- Translated Jade to Slim, and started new **Bourbonslim** project.
 
 ## [1.0.1](https://github.com/pixelminds/bourbonpug/tree/master) - 2017-05-13
 
