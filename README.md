@@ -1,9 +1,9 @@
 [<img src="https://github.com/pixelminds/bourbonslim/blob/master/bourbonslim_logo.png" alt="Bourbonslim logo">](https://github.com/pixelminds/bourbonslim)
 
 # bourbonslim
-[![Release v1.0](https://img.shields.io/badge/release-v1.0.2-orange.svg)](https://github.com/pixelminds/bourbonslim) [![Bourbon v5.0.0 b7](https://img.shields.io/badge/bourbon-v5.0.0%20b7-red.svg)](http://bourbon.io/) [![Neat v1.8.0](https://img.shields.io/badge/neat-v1.8.0-blue.svg)](https://github.com/thoughtbot/neat/tree/neat-1.8.0-node-sass) [![jQuery v3.2.1](https://img.shields.io/badge/jquery-v3.2.1-green.svg)](https://jquery.com/) [![GPLv3 license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.txt) [![Flattr this](http://button.flattr.com/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=pixelmind&url=http%3A%2F%2Fwww.pixelminds.net)
+[![Release v1.0](https://img.shields.io/badge/release-v1.0.2-orange.svg)](https://github.com/pixelminds/bourbonslim) [![Bourbon v5.0.0 b7](https://img.shields.io/badge/bourbon-v5.0.0%20b7-red.svg)](http://bourbon.io/) [![Neat v1.8.0](https://img.shields.io/badge/neat-v1.8.0-blue.svg)](https://github.com/thoughtbot/neat/tree/neat-1.8.0-node-sass) [![jQuery v3.2.1](https://img.shields.io/badge/jquery-v3.2.1-green.svg)](https://jquery.com/) [![GPLv3 license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.txt)
 
-**Bourbonslim** is an opinionated template or boilerplate you can use as a starter for small static multipage websites. We included popular effects such as parallax images or sticky navigation, which you can of course use or not. As a core framework we used Bourbon, Neat, Bitters and Refills, which rely on JQuery for some dynamic behaviors.  
+**Bourbonslim** is an opinionated template or boilerplate you can use as a starter for small static multipage websites. We included popular effects such as parallax images or sticky navigation, which you can of course use or not. As a core framework we used Bourbon, Neat, Bitters and Refills, which rely on JQuery for some dynamic behaviors.
 ### Preprocessor and templating engine
 Editing in HTML and CSS would be specially tough without a template engine and a CSS preprocessor. In this project we rely on Slim and SASS. The origin of this project is a twin project based in Jade/Pug. We decided to build a new version based in Slim, so now you know where we made the project name up from. By using mixins, nesting & variables in CSS and dry syntax with partials for the HTML structure, productivity is greatly enhanced. Despite this belief, we've had a bad experience with workflow or dependency managers based on node.js (gulp, grunt, bower), and we can't use solutions based in Ruby, because Windows is not Ruby-friendly. Although both Bourbon and Slim need Ruby, we found our best candidate for processing, Prepros, can take care of that, so we included the Prepros config file.
 
@@ -18,7 +18,7 @@ Use this method if you're okay with the template design as it is, or need minor 
 #### With preprocessing
 If you need deeper changes, and want better control of the overall design, you should follow this method using Prepros, or port it to the workflow of your choice. Download **Bourbonslim** and drop the folder onto Prepros. Any changes made to Slim or SCSS documents will be processed into HTML/CSS.
 ### Tools and resources used
-* [**Prepros**](https://prepros.io/) by [Subash Pathak](https://github.com/Subash) for SASS / Jade preprocessing.
+* [**Prepros**](https://prepros.io/) by [Subash Pathak](https://github.com/Subash) for SASS / Slim preprocessing.
 * [**Initializr**](http://www.initializr.com/) by [Jonathan Verrecchia](http://verekia.com/) for the boilerplate essentials. Including [HTML5 Boilerplate](https://html5boilerplate.com/) v5.0 by the [H5BP Team](https://github.com/h5bp).
 * [**Bourbon**](http://bourbon.io) - Thanks to the design team at [Thoughtbot](http://thoughtbot.com/) for the Bourbon ecosystem.
   * [Bourbon](https://github.com/thoughtbot/bourbon) v5.0.0 b7 - SASS mixins for fast prototyping.
